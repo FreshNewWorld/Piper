@@ -20,12 +20,20 @@ without a large, dedicated server on premesies.
 The Services of Piper included are:
 
 ~>HTTP server (currently using the marrow.http.server package)
+
 ~>DHCP server (currently using the pybootd package)
+
 ~>TFTP server (currently using the pybootd package)
+
 ~>DNS server (currently using the dnspython package)
+
 ~>SYSLOG server (currently using the loggerglue package)
+
 ~>NTP server (currently using the program ntpserver.py)
+
 ~>EMAIL server (NOTE: currently do not have an email server package selected. Need to construct one or find one for
                       usage in a proof-of-concept)
+                      
 ~>FTP server (currently using the pyftpd package)
+
 
